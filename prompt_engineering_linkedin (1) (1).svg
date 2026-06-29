@@ -1,0 +1,136 @@
+<svg width="100%" viewBox="0 0 690 690" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Prompt Engineering LinkedIn Post</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">ABTalks 60 Days Claude Challenge - Prompt Engineering comparison: Weak Prompt vs Engineered Prompt, showing how better prompts produce better outputs.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  
+  <rect x="0" y="0" width="680" height="680" rx="0" fill="#F5F0E8" style="fill:rgb(245, 240, 232);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <rect x="0" y="0" width="680" height="6" fill="#C4956A" style="fill:rgb(196, 149, 106);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <rect x="460" y="18" width="200" height="26" rx="13" fill="#C4956A" opacity="0.18" style="fill:rgb(196, 149, 106);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.18;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" font-weight="500" fill="#8B5E3C" x="560" y="36" text-anchor="middle" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">ABTalks · 60 Days Claude Challenge</text>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="13" font-weight="500" fill="#A07040" x="44" y="46" letter-spacing="2" style="fill:rgb(160, 112, 64);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:13px;font-weight:500;text-anchor:start;dominant-baseline:auto">SKILL SERIES</text>
+
+  <text font-family="'Anthropic Sans', sans-serif" font-size="38" font-weight="500" fill="#2C1A0E" x="44" y="96" style="fill:rgb(44, 26, 14);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:38px;font-weight:500;text-anchor:start;dominant-baseline:auto">Prompt</text>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="38" font-weight="500" fill="#2C1A0E" x="44" y="138" style="fill:rgb(44, 26, 14);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:38px;font-weight:500;text-anchor:start;dominant-baseline:auto">Engineering</text>
+
+  
+  <rect x="44" y="152" width="56" height="3" rx="1.5" fill="#C4956A" style="fill:rgb(196, 149, 106);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="13" fill="#7A5C3A" x="44" y="180" style="fill:rgb(122, 92, 58);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">Write smarter. Get better results. Save time.</text>
+
+  
+  
+  <rect x="30" y="208" width="290" height="340" rx="14" fill="#EDE6D8" stroke="#C8B89A" stroke-width="0.5" style="fill:rgb(237, 230, 216);stroke:rgb(200, 184, 154);color:rgb(11, 11, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <rect x="30" y="208" width="290" height="46" rx="14" fill="#D4B896" style="fill:rgb(212, 184, 150);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="30" y="232" width="290" height="22" fill="#D4B896" style="fill:rgb(212, 184, 150);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" font-weight="500" fill="#6B3E1E" x="175" y="237" text-anchor="middle" letter-spacing="1.5" style="fill:rgb(107, 62, 30);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">WEAK PROMPT</text>
+
+  
+  <rect x="50" y="268" width="250" height="52" rx="10" fill="#C8B99A" stroke="#B89E7E" stroke-width="0.5" style="fill:rgb(200, 185, 154);stroke:rgb(184, 158, 126);color:rgb(11, 11, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="12" fill="#4A2E10" x="62" y="288" style="fill:rgb(74, 46, 16);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">❝ Write something</text>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="12" fill="#4A2E10" x="62" y="308" style="fill:rgb(74, 46, 16);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">about marketing. ❞</text>
+
+  
+  <line x1="175" y1="328" x2="175" y2="358" stroke="#B89E7E" stroke-width="1.5" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(184, 158, 126);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="10" fill="#9A7A5A" x="175" y="375" text-anchor="middle" letter-spacing="1" style="fill:rgb(154, 122, 90);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">AI OUTPUT</text>
+
+  
+  <rect x="50" y="384" width="250" height="140" rx="10" fill="#D9D0C4" stroke="#BFB4A4" stroke-width="0.5" style="fill:rgb(217, 208, 196);stroke:rgb(191, 180, 164);color:rgb(11, 11, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <rect x="66" y="400" width="180" height="8" rx="4" fill="#B8AFA0" opacity="0.8" style="fill:rgb(184, 175, 160);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="66" y="416" width="210" height="8" rx="4" fill="#B8AFA0" opacity="0.6" style="fill:rgb(184, 175, 160);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="66" y="432" width="150" height="8" rx="4" fill="#B8AFA0" opacity="0.5" style="fill:rgb(184, 175, 160);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="66" y="450" width="190" height="8" rx="4" fill="#B8AFA0" opacity="0.4" style="fill:rgb(184, 175, 160);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="66" y="466" width="130" height="8" rx="4" fill="#B8AFA0" opacity="0.35" style="fill:rgb(184, 175, 160);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" fill="#9A7A5A" x="175" y="502" text-anchor="middle" style="fill:rgb(154, 122, 90);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Generic · Vague · Unhelpful</text>
+
+  
+  <line x1="338" y1="378" x2="352" y2="378" stroke="#C4956A" stroke-width="2" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(196, 149, 106);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" font-weight="500" fill="#C4956A" x="340" y="395" text-anchor="middle" style="fill:rgb(196, 149, 106);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">VS</text>
+
+  
+  <rect x="360" y="208" width="290" height="340" rx="14" fill="#F0E8D8" stroke="#C4956A" stroke-width="1.5" style="fill:rgb(240, 232, 216);stroke:rgb(196, 149, 106);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <rect x="360" y="208" width="290" height="46" rx="14" fill="#8B5E3C" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="360" y="232" width="290" height="22" fill="#8B5E3C" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" font-weight="500" fill="#F5E8D0" x="505" y="237" text-anchor="middle" letter-spacing="1.5" style="fill:rgb(245, 232, 208);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">ENGINEERED PROMPT</text>
+
+  
+  <rect x="378" y="268" width="254" height="80" rx="10" fill="#C4956A" stroke="#A07040" stroke-width="0.5" style="fill:rgb(196, 149, 106);stroke:rgb(160, 112, 64);color:rgb(11, 11, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" fill="#F5EAD8" x="390" y="286" style="fill:rgb(245, 234, 216);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">❝ Write a 150-word LinkedIn post</text>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" fill="#F5EAD8" x="390" y="302" style="fill:rgb(245, 234, 216);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">for a food biz owner. Friendly,</text>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" fill="#F5EAD8" x="390" y="318" style="fill:rgb(245, 234, 216);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">motivational. Topic: social media</text>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" fill="#F5EAD8" x="390" y="334" style="fill:rgb(245, 234, 216);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">builds trust. End with a CTA. ❞</text>
+
+  
+  <line x1="505" y1="356" x2="505" y2="375" stroke="#8B5E3C" stroke-width="1.5" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(139, 94, 60);color:rgb(11, 11, 11);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="10" fill="#8B5E3C" x="505" y="392" text-anchor="middle" letter-spacing="1" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">AI OUTPUT</text>
+
+  
+  <rect x="378" y="400" width="254" height="124" rx="10" fill="#FBF6EC" stroke="#C4956A" stroke-width="0.5" style="fill:rgb(251, 246, 236);stroke:rgb(196, 149, 106);color:rgb(11, 11, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <rect x="394" y="416" width="190" height="8" rx="4" fill="#8B5E3C" opacity="0.7" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="394" y="430" width="218" height="8" rx="4" fill="#8B5E3C" opacity="0.55" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="394" y="444" width="170" height="8" rx="4" fill="#8B5E3C" opacity="0.5" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="394" y="458" width="200" height="8" rx="4" fill="#8B5E3C" opacity="0.45" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <rect x="394" y="474" width="110" height="18" rx="9" fill="#C4956A" opacity="0.3" style="fill:rgb(196, 149, 106);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="10" fill="#6B3E1E" x="449" y="487" text-anchor="middle" style="fill:rgb(107, 62, 30);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Follow for more →</text>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" fill="#6B3E1E" x="505" y="541" text-anchor="middle" style="fill:rgb(107, 62, 30);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Specific · Useful · Ready to post</text>
+
+  
+  <rect x="30" y="568" width="620" height="84" rx="12" fill="#E8DFD0" stroke="#C4956A" stroke-width="0.5" style="fill:rgb(232, 223, 208);stroke:rgb(196, 149, 106);color:rgb(11, 11, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <circle cx="84" cy="610" r="18" fill="#C4956A" opacity="0.25" style="fill:rgb(196, 149, 106);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="16" fill="#8B5E3C" x="84" y="616" text-anchor="middle" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:middle;dominant-baseline:auto">⏱</text>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" font-weight="500" fill="#3A2010" x="84" y="638" text-anchor="middle" style="fill:rgb(58, 32, 16);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Save time</text>
+
+  
+  <line x1="242" y1="580" x2="242" y2="640" stroke="#C4956A" stroke-width="0.5" opacity="0.5" style="fill:rgb(0, 0, 0);stroke:rgb(196, 149, 106);color:rgb(11, 11, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <circle cx="340" cy="610" r="18" fill="#C4956A" opacity="0.25" style="fill:rgb(196, 149, 106);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="16" fill="#8B5E3C" x="340" y="616" text-anchor="middle" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:middle;dominant-baseline:auto">🎯</text>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" font-weight="500" fill="#3A2010" x="340" y="638" text-anchor="middle" style="fill:rgb(58, 32, 16);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Better accuracy</text>
+
+  
+  <line x1="438" y1="580" x2="438" y2="640" stroke="#C4956A" stroke-width="0.5" opacity="0.5" style="fill:rgb(0, 0, 0);stroke:rgb(196, 149, 106);color:rgb(11, 11, 11);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <circle cx="596" cy="610" r="18" fill="#C4956A" opacity="0.25" style="fill:rgb(196, 149, 106);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="16" fill="#8B5E3C" x="596" y="616" text-anchor="middle" style="fill:rgb(139, 94, 60);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:middle;dominant-baseline:auto">⚡</text>
+  <text font-family="'Anthropic Sans', sans-serif" font-size="11" font-weight="500" fill="#3A2010" x="596" y="638" text-anchor="middle" style="fill:rgb(58, 32, 16);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:11px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Unlock AI's full power</text>
+
+  
+  <text font-family="'Anthropic Sans', sans-serif" font-size="10" fill="#A07040" x="650" y="670" text-anchor="end" opacity="0.7" style="fill:rgb(160, 112, 64);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:10px;font-weight:400;text-anchor:end;dominant-baseline:auto">Made with Claude · Anthropic</text>
+</svg>
